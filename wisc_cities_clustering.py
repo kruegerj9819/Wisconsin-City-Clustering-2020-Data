@@ -15,7 +15,7 @@ plt.figure()
 plt.scatter(X[:, 0], X[:, 1], s=1)
 plt.show()
 
-kmeans = KMeans(n_clusters=190, init="k-means++", )
+kmeans = KMeans(n_clusters=190)
 kmeans.fit(X)
 
 # Get the cluster labels and cluster centers
